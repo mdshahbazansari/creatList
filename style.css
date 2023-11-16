@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    background: #72a343;
+    /* background:url(gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.container{
+    text-align: center;
+    margin-top: 20px;
+}
+.intro h1{
+    background-color: cornflowerblue;
+    font-weight: 900;
+    font-size: 40px;
+}
+.text p{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+}
+#first{
+    margin-top: 10px;
+    color: #946500;
+}
+
+#second{
+    color: lightgreen;
+}
+
+#third{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+input{
+    width: 50%;
+    border-radius: 5px;
+    font-family: monospace;
+    padding: 6px 12px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+#enter {
+    width: 80px;
+    height: 40px;
+    border: none;
+    padding: 5px 14px;
+    border-radius: 5px;
+    color: #04a1cf;
+    background-color: #025f70;
+    transition: all 0.5s ease;
+}
+#enter:hover{
+    background-color: #02799f;
+    color: #ddceaa;
+}
+ul{
+    text-align: center;
+    margin-top: 20px;
+}
+li{
+    list-style: none;
+    padding: 12px 24px;
+    color: #f5f5f5;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 2px solid #006b4b;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #004e66;
+    transition: all 0.5s ease;
+}
+li:hover{
+    background: #00588b;
+}
+li > button{
+    font-weight: 900;
+    font-family:sans-serif;
+    background: none;
+    border: none;
+    float: right;
+    color: #00588b;
+}
+li > button:hover{
+    color: #be0000;
+}
+.done{
+    background: #51df70;
+    color: #005312;
+}
+.delete{
+    display: none;
+}
